@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # script that runs 
 # https://docs.docker.com/engine/install/ubuntu/#install-docker-engine
 
@@ -41,4 +40,3 @@ systemctl daemon-reload
 systemctl restart docker
 systemctl enable docker
 
-systemctl disable --now firewalld
